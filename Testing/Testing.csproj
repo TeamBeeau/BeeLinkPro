@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{99ab365e-4288-42cd-88c4-0ab322dd99b0}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Graphics\Graphics.csproj">
       <Project>{4a81e787-f39f-4ae0-917f-fa061cb1635f}</Project>
       <Name>Graphics</Name>

@@ -13,7 +13,7 @@ namespace Core.Struct
         public Brand Brand;
         public Connect Connect;
         public Protocol Protocol;
-        public String Address;
+       
         public Para Para;
       
         public Device(String Name,TypeDev TypeDev,Brand Brand,Connect Connect,Protocol Protocol, Para Para)

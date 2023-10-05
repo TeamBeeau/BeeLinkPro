@@ -81,6 +81,23 @@ namespace Core
         In,Out,Step
     }
     #endregion
+    #region Function
+    public enum Function
+    {
+        RW_PLC,
+        RW_Vision,
+        OneAxis,
+        MutilAxis,
+        Convert,
+        Compare,
+        Delay,
+        Timer,
+        ReadSensor,
+        RW_Scales
+
+
+    }
+    #endregion
     public class Enum
     {
     }

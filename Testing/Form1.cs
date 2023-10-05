@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Functions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace Testing
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            bool a = Core.Functions.RW_Vision.Write(1);
         }
     }
 }
