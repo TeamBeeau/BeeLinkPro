@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core
 {
+
     public  struct Resource
     {
         public static Color ColorBG(clBackground colorBG)
