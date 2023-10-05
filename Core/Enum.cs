@@ -8,7 +8,7 @@ namespace Core
 {
     public enum clBackground
     {
-        Form,UserCotrol,Btn,Panel,Label
+        Form,UserCotrol,BtnApply,BtnCancel,BtnExit,Panel,Label
     }
     public class Enum
     {

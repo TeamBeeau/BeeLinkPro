@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public struct Resource
+    public  struct Resource
     {
         public static Color ColorBG(clBackground colorBG)
         {
           
             switch (colorBG)
             {
-                
                 case clBackground.Form:
                     return Color.FromArgb(255, 205, 35);
                 case clBackground.UserCotrol:
@@ -23,6 +22,10 @@ namespace Core
                     return Color.White;
                 case clBackground.Label:
                     return Color.FromArgb(70, 70, 70);
+                case clBackground.BtnApply:
+                    return Color.FromKnownColor(KnownColor.ControlDarkDark);
+                case clBackground.BtnCancel:
+                    return Color.FromKnownColor(KnownColor.LightGray);
             }
             return new Color();
         }
